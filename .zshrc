@@ -115,6 +115,11 @@ bindkey '[]' peco-src
 export PATH="$HOME/.fastlane/bin:$PATH"
 
 # for adb command
-
 export PATH=$PATH:/Users/colorbox/Library/Android/sdk/platform-tools
+
+# direnv
+# make sure executed`go get github.com/direnv/direnv`
+eval "$(direnv hook zsh)"
+
+
 
