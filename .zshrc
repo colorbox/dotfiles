@@ -131,4 +131,18 @@ export PATH=$PATH:/Users/colorbox/Library/Android/sdk/platform-tools
 eval "$(direnv hook zsh)"
 
 
-
+# git branch select with peco
+function peco-branch () {
+    local branch=$(git branch -a | peco | tr -d ' ' | tr -d '*')
+    if [ -n "$branch" ]; then
+      if [ -n "$LBUFFER" ]; then
+        local new_left="${LBUFFER%\ } $branch"
+      else
+        local new_left="$branch"
+      fi
+      BUFFER=${new_left}${RBUFFER}
+      CURSOR=${#new_left}
+    fi
+}
+zle -N peco-branch
+bindkey '^xb' peco-branch # C-x b でブランチ選択
