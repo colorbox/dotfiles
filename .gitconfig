@@ -1,0 +1,13 @@
+[user]
+	email = colorbox222@gmail.com
+	name = colorbox
+
+[alias]
+	ad = add
+	co = checkout
+
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
