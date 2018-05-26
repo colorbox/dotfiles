@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/oh-my-zsh"
 
 # alias
-alias ll="ls -la"
+alias ll='ls -la'
 
 # ssh-agent
 eval `ssh-agent`
