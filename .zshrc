@@ -86,6 +86,7 @@ source $ZSH/oh-my-zsh.sh
 
 # alias
 alias ll='ls -la'
+alias g='git'
 
 # ssh-agent
 eval `ssh-agent`
