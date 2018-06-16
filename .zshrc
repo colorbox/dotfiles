@@ -87,6 +87,8 @@ source $ZSH/oh-my-zsh.sh
 # alias
 alias ll='ls -la'
 alias g='git'
+alias cop_changed='git diff --name-only | xargs rubocop'
+
 
 # ssh-agent
 eval `ssh-agent`
