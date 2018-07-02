@@ -159,6 +159,9 @@ function peco-branch () {
 zle -N peco-branch
 bindkey '^xb' peco-branch # C-x b でブランチ選択
 
+# for image magick
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+
 # for change directory
 setopt auto_cd
 setopt auto_pushd
