@@ -158,3 +158,9 @@ function peco-branch () {
 }
 zle -N peco-branch
 bindkey '^xb' peco-branch # C-x b でブランチ選択
+
+# for change directory
+setopt auto_cd
+setopt auto_pushd
+setopt pushd_ignore_dups
+
