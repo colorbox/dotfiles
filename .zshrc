@@ -162,8 +162,12 @@ bindkey '^xb' peco-branch # C-x b でブランチ選択
 # for image magick
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 
+# for rabbit
+export DYLD_LIBRARY_PATH=/usr/local/opt/cairo/lib
+
 # for change directory
 setopt auto_cd
 setopt auto_pushd
 setopt pushd_ignore_dups
+
 
