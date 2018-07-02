@@ -5,9 +5,14 @@
 [alias]
 	ad = add
 	co = checkout
+	br = branch
+	brd = branch -d
+	cob = checkout -b
+	rss = reset --soft
 
 [color]
 	status = auto
 	diff = auto
 	branch = auto
 	interactive = auto
+
