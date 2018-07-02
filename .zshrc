@@ -142,6 +142,8 @@ export PATH=$PATH:/Users/colorbox/Library/Android/sdk/platform-tools
 # make sure executed`go get github.com/direnv/direnv`
 eval "$(direnv hook zsh)"
 
+# added by travis gem
+[ -f /Users/colorbox/.travis/travis.sh ] && source /Users/colorbox/.travis/travis.sh
 
 # git branch select with peco
 function peco-branch () {
