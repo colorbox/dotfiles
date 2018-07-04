@@ -8,4 +8,3 @@ begin
 rescue LoadError
   puts "no awesome_print :("
 end
-

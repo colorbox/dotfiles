@@ -97,15 +97,11 @@ alias be='bundle exec'
 alias bi='bundle install'
 alias bu='bundle update'
 
-
-
 # ssh-agent
 eval `ssh-agent`
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-
-
 
 # for ghq
 export GOPATH=$HOME
@@ -129,8 +125,6 @@ peco-select-history() {
 }
 zle -N peco-select-history
 bindkey '^r' peco-select-history
-
-
 
 # for fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
@@ -171,5 +165,3 @@ export DYLD_LIBRARY_PATH=/usr/local/opt/cairo/lib
 setopt auto_cd
 setopt auto_pushd
 setopt pushd_ignore_dups
-
-
