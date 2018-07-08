@@ -165,3 +165,8 @@ export DYLD_LIBRARY_PATH=/usr/local/opt/cairo/lib
 setopt auto_cd
 setopt auto_pushd
 setopt pushd_ignore_dups
+
+# for pecos
+source ~/dotfiles/.zsh.d/pecos
+zle -N prake
+bindkey '^t' prake
