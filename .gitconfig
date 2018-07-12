@@ -7,8 +7,12 @@
 	co = checkout
 	br = branch
 	brd = branch -d
+	bra = branch -a
+	brm = branch -m
 	cob = checkout -b
 	rss = reset --soft
+	cm = commit
+	cma = commit --amend
 
 [color]
 	status = auto
