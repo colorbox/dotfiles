@@ -5,6 +5,7 @@
 [alias]
 	ad = add
 	co = checkout
+	ps = push
 	br = branch
 	brd = branch -d
 	bra = branch -a
