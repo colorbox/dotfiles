@@ -15,6 +15,7 @@
 	cm = commit
 	cma = commit --amend
 	bl = blame
+	pl = pull
 
 [color]
 	status = auto
