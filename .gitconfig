@@ -8,6 +8,7 @@
 	ps = push
 	br = branch
 	brd = branch -d
+	brD = branch -D
 	bra = branch -a
 	brm = branch -m
 	cob = checkout -b
