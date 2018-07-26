@@ -170,3 +170,8 @@ setopt pushd_ignore_dups
 source ~/dotfiles/.zsh.d/pecos
 zle -N prake
 bindkey '^t' prake
+
+# vagrant
+alias vagu='vagrant up'
+alias vagh='vagrant halt'
+alias vagssh='vagrant ssh'
