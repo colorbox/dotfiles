@@ -172,6 +172,7 @@ zle -N prake
 bindkey '^t' prake
 
 # vagrant
-alias vagu='vagrant up'
-alias vagh='vagrant halt'
-alias vagssh='vagrant ssh'
+alias vgu='vagrant up'
+alias vgh='vagrant halt'
+alias vgssh='vagrant ssh'
+alias vgrelo='vagrant reload'
