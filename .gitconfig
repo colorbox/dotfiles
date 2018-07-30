@@ -6,6 +6,7 @@
 	ad = add
 	co = checkout
 	ps = push
+	psf = push -f
 	br = branch
 	brd = branch -d
 	brD = branch -D
