@@ -18,7 +18,7 @@
 	cma = commit --amend
 	bl = blame
 	pl = pull
-  wip = commit -m 'wip' --allow-empty
+	wip = commit -m 'wip' --allow-empty
 
 [color]
 	status = auto
