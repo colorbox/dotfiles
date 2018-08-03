@@ -19,6 +19,7 @@
 	bl = blame
 	pl = pull
 	wip = commit -m 'wip' --allow-empty
+	upfront = commit -m 'Update frontend'
 
 [color]
 	status = auto
