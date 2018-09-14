@@ -20,7 +20,10 @@
 	pl = pull
 	wip = commit -m 'wip' --allow-empty
 	upfront = commit -m 'Update frontend'
-
+	st = stash
+	stl = stash list
+	stp = stash pop
+	std = stash drop
 [color]
 	status = auto
 	diff = auto
