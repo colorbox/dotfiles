@@ -20,6 +20,7 @@
 	pl = pull
 	wip = commit -m 'wip' --allow-empty
 	upfront = commit -m 'Update frontend'
+	upcommon = commit -m 'Update common'
 	st = stash
 	stl = stash list
 	stp = stash pop
