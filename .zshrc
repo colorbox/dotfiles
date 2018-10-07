@@ -104,7 +104,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # for ghq
-export GOPATH=$HOME
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 function peco-src () {
