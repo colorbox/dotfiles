@@ -176,3 +176,8 @@ alias vgu='vagrant up'
 alias vgh='vagrant halt'
 alias vgssh='vagrant ssh'
 alias vgrelo='vagrant reload'
+
+# for goenv
+export PATH="$HOME/.goenv/bin:$PATH"
+eval "$(goenv init -)"
+
