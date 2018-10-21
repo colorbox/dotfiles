@@ -16,6 +16,8 @@
 	rss = reset --soft
 	cm = commit
 	cma = commit --amend
+	cmam = cma -m
+	cmam = 
 	bl = blame
 	pl = pull
 	wip = commit -m 'wip' --allow-empty
