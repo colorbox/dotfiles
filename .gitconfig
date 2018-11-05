@@ -14,6 +14,7 @@
 	brm = branch -m
 	cob = checkout -b
 	rss = reset --soft
+	rsH = reset --hard
 	cm = commit
 	cma = commit --amend
 	cmam = commit --amend -m
