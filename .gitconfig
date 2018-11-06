@@ -24,6 +24,8 @@
 	upfront = commit -m 'Update frontend'
 	upcommon = commit -m 'Update common'
 	clear-cache = commit -m '[CLEAR CACHE]' --allow-empty
+	police = commit -m ':policeman:'
+	gun_police = commit -m ':policeman::gun:'
 	st = stash
 	stl = stash list
 	stp = stash pop
