@@ -26,6 +26,7 @@
 	clear-cache = commit -m '[CLEAR CACHE]' --allow-empty
 	police = commit -m ':policeman:'
 	policegun = commit -m ':policeman::gun:'
+	lip = commit -m ':lipstick:'
 	st = stash
 	stl = stash list
 	stp = stash pop
