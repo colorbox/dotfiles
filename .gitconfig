@@ -20,8 +20,6 @@
 	bl = blame
 	pl = pull
 	wip = commit -m 'wip' --allow-empty
-	upfront = commit -m 'Update frontend'
-	upcommon = commit -m 'Update common'
 	clear-cache = commit -m '[CLEAR CACHE]' --allow-empty
 	police = commit -m ':policeman:'
 	policegun = commit -m ':policeman::gun:'
