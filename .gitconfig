@@ -19,7 +19,7 @@
 	cmam = commit --amend -m
 	bl = blame
 	pl = pull
-	wip = commit -m 'wip' --allow-empty
+	wip = commit -m 'wip[ci skip]' --allow-empty
 	clear-cache = commit -m '[CLEAR CACHE]' --allow-empty
 	police = commit -m ':policeman:'
 	policegun = commit -m ':policeman::gun:'
