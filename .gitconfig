@@ -18,7 +18,7 @@
 	cma = commit --amend
 	cmam = commit --amend -m
 	bl = blame
-	pl = pull --rebase
+	pl = pull
 	wip = commit -m 'wip[ci skip]' --allow-empty
 	clear-cache = commit -m '[CLEAR CACHE]' --allow-empty
 	police = commit -m ':policeman:'
@@ -36,3 +36,6 @@
 
 [core]
   excludesfile = ~/.gitignore
+[pull]
+	rebase = true
+
