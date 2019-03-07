@@ -28,6 +28,7 @@
 	stl = stash list
 	stp = stash pop
 	std = stash drop
+
 [color]
 	status = auto
 	diff = auto
@@ -35,7 +36,8 @@
 	interactive = auto
 
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
+
 [pull]
 	rebase = true
 
