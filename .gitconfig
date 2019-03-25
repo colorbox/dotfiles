@@ -37,6 +37,7 @@
 
 [core]
 	excludesfile = ~/.gitignore
+	commentchar = ^
 
 [pull]
 	rebase = true
