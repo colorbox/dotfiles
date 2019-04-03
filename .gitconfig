@@ -7,6 +7,7 @@
 	co = checkout
 	ps = push
 	psf = push -f
+	pom = push origin master
 	br = branch
 	brd = branch -d
 	bra = branch -a
