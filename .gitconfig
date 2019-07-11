@@ -20,7 +20,7 @@
 	cmam = commit --amend -m
 	bl = blame
 	pl = pull
-	wip = commit -m 'wip[ci skip]' --allow-empty
+	wip = commit -m 'wip[ci skip][skip ci]' --allow-empty
 	wip-fu = commit -m 'wip[ci skip]' --allow-empty --fixup
 	wip-ci = commit -m 'wip' --allow-empty
 	clear-cache = commit -m '[CLEAR CACHE]' --allow-empty
