@@ -192,3 +192,5 @@ fi
 # for homebrew cache
 export HOMEBREW_CACHE=$HOME/Library/Caches/Homebrew 
 
+ssh-add -K
+
