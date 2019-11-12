@@ -1,9 +1,0 @@
-# http://qiita.com/naoty_k/items/93aa0f35aaa889f36d18
-prake() {
-  local task=$(rake -T | peco | cut -d " " -f 2)
-  if [ -n "$task" ]; then
-    BUFFER="rake ${task}"
-    CURSOR=${#BUFFER}
-    zle accept-line
-  fi
-}
