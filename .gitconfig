@@ -6,7 +6,7 @@
 	ad = add
 	co = checkout
 	ps = push
-	psf = push -f
+	psf = push --force-with-lease
 	pom = push origin master
 	br = branch
 	brd = branch -d
