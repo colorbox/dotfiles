@@ -96,6 +96,7 @@ alias cop_changed='git diff --name-only | xargs rubocop'
 alias be='bundle exec'
 alias bi='bundle install'
 alias bu='bundle update'
+alias gcompl='g co master; g pl;'
 
 # ssh-agent
 eval `ssh-agent`
