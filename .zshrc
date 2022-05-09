@@ -96,7 +96,8 @@ alias cop_changed='git diff --name-only | xargs rubocop'
 alias be='bundle exec'
 alias bi='bundle install'
 alias bu='bundle update'
-alias gcompl='g co master; g pl;'
+alias default_branch='git remote show origin | grep '\''HEAD branch'\'' | awk '\''{print $NF}'\'''
+alias gcompl='g co $(default_branch); g pl;'
 
 # ssh-agent
 eval `ssh-agent`
